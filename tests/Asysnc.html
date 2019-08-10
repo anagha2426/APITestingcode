@@ -1,0 +1,32 @@
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+<script>
+const doSomethingAsync =() => {
+
+//retrurn new Promise(resolve=>{
+
+    setTimeout(() =>resolve('I did something',3000));
+//})
+}
+
+
+const dosomething =async () => {
+
+    console.log(await doSomethingAsync())
+}
+
+console.log("before")
+dosomething()
+comsole.log("after")
+
+
+</script>
+</body>
+
+</html>

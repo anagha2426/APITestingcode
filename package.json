@@ -1,0 +1,15 @@
+{
+  "name": "page_objects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^76.0.0",
+    "selenium-server": "^3.141.59"
+  }
+}
